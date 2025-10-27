@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply text-neutral-800 bg-white; }
+a { @apply underline underline-offset-4 decoration-piona-green/30 hover:decoration-piona-green; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.btn { @apply inline-block rounded-xl px-4 py-2 bg-piona-green text-white hover:opacity-90 transition; }
+.card { @apply rounded-2xl border border-neutral-200 shadow-sm p-6; }
