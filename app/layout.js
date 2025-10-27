@@ -1,3 +1,4 @@
+// app/layout.js
 export const metadata = {
   metadataBase: new URL("https://www.piona-atelier.example"),
   title: {
@@ -35,10 +36,13 @@ const playfair = Playfair_Display({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={playfair.className}>
+    <html lang="en">{/* 전체에 적용하려면 className={playfair.className} 로 변경 */}
       <body>
         <Nav />
-        <main className="container py-10">{children}</main>
+        {/* ✅ fixed Nav 겹침 방지 */}
+        <div className="h-16 md:h-20" aria-hidden="true" />
+        {/* ✅ 홈 히어로 풀폭 유지: container 제거, 패딩은 공통 py-8 */}
+        <main className="py-3">{children}</main>
         <Footer />
       </body>
     </html>
