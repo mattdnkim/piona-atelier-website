@@ -26,10 +26,16 @@ export const metadata = {
 import "./globals.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import { Playfair_Display } from 'next/font/google';
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['500', '600'],
+  display: 'swap',
+});
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={playfair.className}>
       <body>
         <Nav />
         <main className="container py-10">{children}</main>

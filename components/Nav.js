@@ -4,7 +4,7 @@ export default function Nav() {
       <div className="container flex items-center justify-between h-16 pt-10">
         <a
           href="/"
-          className="font-[Playfair_Display] text-3xl md:text-[2rem] font-semibold text-piona-green tracking-[-0.02em] hover:opacity-90 transition drop-shadow-sm no-underline"
+          className="text-3xl md:text-[2rem] font-semibold text-piona-green tracking-[-0.02em] hover:opacity-90 transition drop-shadow-sm no-underline"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
           Piona Atelier
