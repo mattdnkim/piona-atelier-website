@@ -33,6 +33,7 @@ export default function Page() {
 
       {/* Background section (single soft image) */}
       <section className="relative rounded-2xl overflow-hidden min-h-[80vh] md:min-h-[90vh] pt-24 md:pt-32">
+
         {/* Single background image */}
         <img
           src="/images/bg-soft.jpg"

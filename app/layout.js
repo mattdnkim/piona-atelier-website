@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Nav />
-        <main className="container py-12">{children}</main>
+        <main className="container py-10">{children}</main>
         <Footer />
       </body>
     </html>
