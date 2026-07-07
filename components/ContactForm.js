@@ -8,6 +8,8 @@ const ARRANGEMENTS = [
     { label: "Boutonnieres / Corsages", value: "boutonnieres" },
     { label: "Ceremony Arch / Backdrop", value: "arch" },
     { label: "Table Centerpieces", value: "centerpieces" },
+    { label: "Aisle Decor", value: "aisle" },
+    { label: "Other: please specify", value: "other" },
 ];
 
 export default function ContactForm() {
