@@ -14,7 +14,9 @@ export default function Nav() {
         {/* 메뉴 + SNS */}
         <div className="flex items-center gap-6 text-sm font-medium text-neutral-700">
           <nav className="flex gap-6">
-            <a href="/services" className="hover:text-piona-green">Services</a>
+
+            {/* <a href="/services" className="hover:text-piona-green">Services</a> */}
+            <a href="/" className="hover:text-piona-green">Home</a>
             <a href="/portfolio/wedding-bouquets" className="hover:text-piona-green">Portfolio</a>
             <a href="/events/proposal-99" className="hover:text-piona-green">Events</a>
             <a href="/about" className="hover:text-piona-green">About</a>
