@@ -63,7 +63,7 @@ export async function POST(request) {
     }
 
     await resend.emails.send({
-      from: "Piona Atelier Website <onboarding@resend.dev>", // 도메인 인증 후 hello@piona-atelier.com 등으로 교체
+      from: "Piona Atelier Website <info@pionaatelier.ca>", // 도메인 인증 후 hello@piona-atelier.com 등으로 교체
       to: process.env.CONTACT_EMAIL_TO, // 실제 받는 사람 이메일 (env로 관리)
       replyTo: payload.email,
       subject: `New Inquiry: ${payload.eventType} — ${payload.name}`,
