@@ -47,29 +47,7 @@ export default function Page() {
         {/* Subtle overlay for readability */}
         <div className="absolute inset-0 bg-black/25" />
 
-        {/* About overlay (transparent text, no white box) */}
-        <div className="relative z-10 flex items-center justify-center h-full text-center px-6">
-          <div className="max-w-3xl text-white drop-shadow-md">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4">About Us</h1>
-            <p className="text-lg md:text-xl leading-relaxed text-white/90">
-              Piona Atelier is a Calgary-based wedding & event floral studio crafting elegant
-              <span className="whitespace-nowrap"> silk & fresh </span>arrangements—bouquets, arches,
-              centerpieces, and romantic car proposals. We design with refined palettes and natural
-              textures for effortless, modern florals across Calgary, Banff, and Canmore.
-            </p>
-            {/* <div className="mt-6 flex justify-center gap-4">
-              <a
-                className="btn bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white border border-white/40"
-                href="/portfolio/wedding-bouquets"
-              >
-                View Portfolio
-              </a>
-              <a className="btn bg-piona-green hover:opacity-90" href="/#contact">
-                Get a Quote
-              </a>
-            </div> */}
-          </div>
-        </div>
+
       </section>
 
       {/* Contact section */}
