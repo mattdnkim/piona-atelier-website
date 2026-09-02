@@ -35,34 +35,34 @@ export default function Nav() {
           <a href="/events/proposal-99" className="transition hover:text-piona-green">Events</a>
           <a href="/about" className="transition hover:text-piona-green">About</a>
         </nav>
+
+          {/* ✅ 인스타그램 링크 */}
+          <a
+            href="https://www.instagram.com/pionaatelier"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="hover:text-piona-green flex items-center gap-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-5 h-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M7.5 3h9a4.5 4.5 0 014.5 4.5v9a4.5 4.5 0 01-4.5 4.5h-9A4.5 4.5 0 013 16.5v-9A4.5 4.5 0 017.5 3z"
+              />
+              <circle cx="12" cy="12" r="3.25" />
+              <circle cx="17" cy="7" r=".75" fill="currentColor" />
+            </svg>
+            <span className="hidden md:inline">Instagram</span>
+          </a>
         </div>
       </div>
-
-      {/* ✅ 인스타그램 링크 */}
-      <a
-        href="https://www.instagram.com/pionaatelier"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Instagram"
-        className="hover:text-piona-green flex items-center gap-1"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none" viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          className="w-5 h-5"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M7.5 3h9a4.5 4.5 0 014.5 4.5v9a4.5 4.5 0 01-4.5 4.5h-9A4.5 4.5 0 013 16.5v-9A4.5 4.5 0 017.5 3z"
-          />
-          <circle cx="12" cy="12" r="3.25" />
-          <circle cx="17" cy="7" r=".75" fill="currentColor" />
-        </svg>
-        <span className="hidden md:inline">Instagram</span>
-      </a>
     </header>
 
   );
