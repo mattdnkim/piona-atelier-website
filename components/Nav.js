@@ -3,12 +3,12 @@ export default function Nav() {
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur bg-white/80 shadow-sm">
       <div className="container flex items-center justify-between h-16 md:h-20">
         {/* 로고 */}
-        <a
-          href="/"
-          className="text-3xl md:text-[2rem] font-semibold text-piona-green tracking-[-0.02em] hover:opacity-90 transition drop-shadow-sm !no-underline decoration-transparent hover:decoration-transparent"
-          style={{ fontFamily: "'Playfair Display', serif" }}
-        >
-          Piona Atelier
+        <a href="/" className="flex items-center transition hover:opacity-90">
+          <img
+            src="public/images/logo.png" // 👈 실제 로고 이미지 경로로 수정하세요
+            alt="Piona Atelier"
+            className="h-8 md:h-10 w-auto object-contain"
+          />
         </a>
 
         {/* 메뉴 + SNS */}
